@@ -1,0 +1,13 @@
+use("platzi_store")
+
+db.stores.insertMany([
+  {
+    name: "Store 1",
+    products_ids: []
+
+  },
+  {
+    name: "Store 2",
+    products_ids: [] // relacion muchos a muchos
+  }
+])
